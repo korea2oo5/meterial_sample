@@ -25,14 +25,21 @@ function Header() {
     return (
         <Breadcrumbs aria-label="breadcrumb">
             <Link href="/">
-                <StyledBreadcrumb
-                    component="a"
-                    href="#"
-                    label="Home"
-                />
+                <StyledBreadcrumb component="a" href="#" label="Home" />
             </Link>
             <Link href="/blog">
-            <StyledBreadcrumb component="a" href="#" label="blog"  />
+                <StyledBreadcrumb component="a" href="#" label="blog" />
+            </Link>
+            <Link href="/card">
+                <StyledBreadcrumb component="a" href="#" label="card" />
+            </Link>
+            <Link href="/avatar">
+                <StyledBreadcrumb component="a" href="#" label="avatar" />
+            </Link>
+            <Link href="/join">
+                <StyledBreadcrumb component="a" href="#" label="join" />
+            </Link><Link href="/fileUpload">
+                <StyledBreadcrumb component="a" href="#" label="fileUpload" />
             </Link>
         </Breadcrumbs>
     )
